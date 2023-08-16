@@ -1,0 +1,8 @@
+div {
+  margin: 0 auto;
+}
+.menu ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
