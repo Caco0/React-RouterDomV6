@@ -20,6 +20,9 @@ export const Menu = () => {
         <li>
           <Link to="/redirect">Redirect</Link>
         </li>
+        <li>
+          <Link to="/notFound">Not Found</Link>
+        </li>
       </ul>
     </nav>
   );
