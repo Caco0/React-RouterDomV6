@@ -9,7 +9,7 @@ export const Post = () => {
   return (
     <section>
       <h1>
-        Post {`Param: ${id}`} {`QS: ${qs}`}
+        Post {`Param: ${id}`} {`QS: ${qs.get("segunda")}`}
       </h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
